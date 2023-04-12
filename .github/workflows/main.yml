@@ -7,7 +7,7 @@ on:
 
 jobs:
  conviso-iac:
-   runs-on: [self-hosted, public, linux, x64]
+   runs-on: ubuntu-latest
    container:
      image: convisoappsec/flowcli
      env:
